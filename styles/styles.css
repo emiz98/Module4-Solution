@@ -30,7 +30,7 @@ body {
   margin-top: 10px;
   float: none;
   position: absolute;
-  top: 23%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -55,7 +55,7 @@ body {
 }
 
 .container {
-  padding-top: 100px;
+  padding-top: 120px;
 }
 .category {
   text-align: center;
