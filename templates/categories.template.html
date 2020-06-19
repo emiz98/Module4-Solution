@@ -1,4 +1,13 @@
-<a ui-sref="home">Home</a>&lt;
-<a ui-sref="category">category</a>
+
+<ul id="nav-list" class="nav navbar-nav">
+ <li id="navHomeButton">
+   <a ui-sref="home">
+     <span class="glyphicon glyphicon-home"></span><br class="hidden-xs">Home</a>
+ </li>
+ <li id="navCategoryButton">
+   <a ui-sref="category">
+     <span class="glyphicon glyphicon-list"></span><br class="hidden-xs"> Categories</a>
+ </li>
+ </ul>
 
 <category-list items="mainList.items"></category-list>
